@@ -52,18 +52,27 @@
   
 }
 .section .h1{
-    padding-top: 2rem;
+    padding-top: 6rem;
+    
 } 
 .section a{
     display: inline-block;
     padding:1rem 3rem;
-    margin:1rem 1rem;
+    margin:3rem  1rem;
     text-decoration: none;
      border-radius: 1.5rem;
      
      
 
     
+}
+.section a:hover:first-of-type{
+    background-color: rgba(230, 118, 137, 0.754);
+    box-shadow: 5px 5px 5px  lightblue;
+}
+.section a:hover:last-of-type{
+    background-color: rgba(111, 114, 186, 0.87);
+    box-shadow: 5px 5px 5px  lightblue;
 }
 .section a:first-of-type{
     background-color: rgba(0,0,0,0.5);
@@ -91,7 +100,7 @@
     list-style: none;
     height: 100vh;
     width: 250px;
-    background-color: #fff;
+    background-color:rgb(248, 200, 208);
     color: #000;
     padding-top: 5rem;
     flex-direction: column;
@@ -116,5 +125,44 @@
     transform: rotate(360deg);
     transition: all 1s ease-in-out;
  }
+ .black{
+    background-color:rgba(0,0,0,0.5)!important;
+ }
  
+
+ @media all and (max-width:1070px){
+    .header{
+        padding-right:1rem;
+        padding-left: 1rem;
+    }
+    .header ul li a{
+        margin:0.1rem;
+    }
+    .section .anchor {
+        padding-top: 12rem;
+    }
+
+ }
+ @media all and (max-width:880px){
+    .header ul{
+        flex-wrap: wrap;
+    }
+
+ }
+ @media all and (max-width:500px){
+    .section a{
+        flex-wrap: wrap;
+        margin:0.5rem  1rem;
+        padding:0.5rem 1rem;
+    }
+    .section .h1{
+        padding-top:1.5rem;
+    }
+    .section .anchor {
+        padding-top: 8rem;
+    }
+    
+
+
+ }
 

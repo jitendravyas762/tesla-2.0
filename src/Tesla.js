@@ -52,9 +52,9 @@ function Home() {
       />
       <Section
         carName="Accessories"
-        textName="Schedule a Demo Drive"
         backgroundImage="accessories.jpg"
-        leftbtn=" custom Order"
+        rightbtn=" custom Order"
+        blackbg={true}
       />
 
 

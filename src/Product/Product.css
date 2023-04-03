@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: baseline;
+    font-size: 20px;
+    background-color:brown;
+    color:#fff;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+
+}
+.header ul li a{
+    
+    padding:0.5rem;
+    margin:0.5rem;
+    text-decoration: none;
+    color:#fff;
+}
+.axios{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.axios .image .h1{
+    text-align: justify;
+}
+.axios .image .h1 a{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    padding:0.5rem ;
+    margin:0.5rem 0;
+    background-color: #000;
+    border-radius: 10px;
+}
+.axios .image{
+    width:20%;
+    margin:0.5rem;
+    padding:0.5rem;
+    text-align: center;
+    
+    
+}
+ .axios .image img{
+    
+    width:40%;
+}
